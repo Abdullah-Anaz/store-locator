@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Title</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style/style.css">
+        <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <!-- <div class="title">STORE LOCATOR</div> -->
+            <div class="search-container">
+                <div class="search">
+                    <input id="zip-code" type="text" onkeyup="onEnter(event)" placeholder="Enter Zip Code" require>
+                    <i class="fas fa-search" onclick="getStores()"></i>
+                </div>
+            </div>
+            <div class="store-list-container">
+                <div class="stores-list">
+                    <div class="intro">
+                        <span class="enter-zip">Enter Zip Code</span>
+                        <span class="find-stores">Find Stores Near You</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="map"></div>
+
+        <!-- 
+        The `defer` attribute causes the callback to execute after the full HTML
+        document has been parsed. For non-blocking uses, avoiding race conditions,
+        and consistent behavior across browsers, consider loading using Promises
+        with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+        -->
+        
+        <script src="js/index.js" async defer></script>
+
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCajROTCAgv4YTK1y8hAahcqrneHXuNnts&callback=initMap&v=weekly"
+            defer
+        ></script>
+    </body>
+</html>
