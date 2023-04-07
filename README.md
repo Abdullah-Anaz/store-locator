@@ -26,4 +26,4 @@ The application queries data based on geo-coordinates to show users the nearest 
 <li>Abdullah Anaz</li>
 
 <h2>License</h2>
-<p>This project is licensed under the MIT License - see the <a href="https://github.com/Abdullah-Anaz/storeLocator/blob/main/LICENSE.md">LICENSE.md</a> file for details.</p>
+<p>This project is licensed under the MIT License - see the <a href="https://github.com/Abdullah-Anaz/store-locator/blob/main/LICENSE.md">LICENSE.md</a> file for details.</p>
