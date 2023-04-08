@@ -22,8 +22,5 @@ The application queries data based on geo-coordinates to show users the nearest 
 <li>Google Maps API / Geocoding API</li>
 </ul>
 
-<h2>Contributors</h2>
-<li>Abdullah Anaz</li>
-
 <h2>License</h2>
 <p>This project is licensed under the MIT License - see the <a href="https://github.com/Abdullah-Anaz/store-locator/blob/main/LICENSE.md">LICENSE.md</a> file for details.</p>
