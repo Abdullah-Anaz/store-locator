@@ -1,5 +1,7 @@
 # Store Locator with Google Maps API / Geocoding API
 
+<img src="https://drive.google.com/file/d/1mTxsV0kwKMJ96bgcfqkDrubfUd3njmNJ/view?usp=sharing"/>
+
 <p>This is a store locator application that uses the Google Maps API / Geocoding API.<br>
 The application has been built with Node.js for the backend and uses MongoDB as the database.<br> 
 The application queries data based on geo-coordinates to show users the nearest stores in their location.</p>
